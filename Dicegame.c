@@ -12,7 +12,7 @@ int main(void)
   for(i = 1 ; i <= 2 ; i++)
     {
       r = (rand()%(max - min +1))+min;
-      printf("Die%d: %d",i,r);
+      printf("Die%d: %d\n",i,r);
       sum += r;
     }
   printf("Total value: %d\n",sum);
